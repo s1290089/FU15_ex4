@@ -20,8 +20,8 @@ int main(){
     }
 
   printf("Heads: %d, Tails: %d\n", c, 3-c);
-  if(c >= 2) printf("You won!\n");
-  else printf("You lost\n");
+  if(c >= 2) printf("%s won!\n", name);
+  else printf("%s lost\n", name);
 
   return 0;
 }
