@@ -4,8 +4,13 @@
 
 int main(){
   int c = 0;
+  char name[100];
 
   srand((unsigned)time(NULL));
+
+  printf("Who are you?\n> ");
+  scanf("%s", name);
+  printf("Hello, %s!\n", name);
 
   printf("Tossing a coin...\n");
 
